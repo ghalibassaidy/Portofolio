@@ -27,8 +27,10 @@ import starbucks from "./company/SMK.png";
 import tesla from "./company/eva.png";
 
 import elearning from "./elearning.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import tms from "./tms.png";
+import cp from "./cp.png";
+import spp from "./spp.png";
+
 
 export {
   logo,
@@ -57,6 +59,7 @@ export {
   starbucks,
   tesla,
   elearning,
-  jobit,
-  tripguide,
+  tms,
+  cp,
+  spp,
 };

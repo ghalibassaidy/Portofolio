@@ -20,9 +20,10 @@ import {
   tesla,
   shopify,
   elearning,
-  jobit,
-  tripguide,
+  tms,
+  cp,
   threejs,
+  spp,
 } from "../assets";
 
 export const navLinks = [
@@ -174,17 +175,17 @@ const experiences = [
   },
 ];
 
-const testimonials = [
+const skillsShowcase  = [
   {
-    testimonial:
+    skillset:
       "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
+    name: "Web Development",
     designation: "CFO",
     company: "Acme Co",
     image: "https://randomuser.me/api/portraits/women/4.jpg",
   },
   {
-    testimonial:
+    skillset:
       "I've never met a web developer who truly cares about their clients' success like Rick does.",
     name: "Chris Brown",
     designation: "COO",
@@ -192,7 +193,7 @@ const testimonials = [
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
-    testimonial:
+    skillset:
       "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
     name: "Lisa Wang",
     designation: "CTO",
@@ -205,7 +206,7 @@ const projects = [
   {
     name: "E-Learning",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "As a freelance Web Developer, played a key role in managing the Learning Management System (LMS) for the SMK Mardhika platform—delivering financial solution features and achieving a user satisfaction rate of 9/10 through a seamless, high-performing web experience.",
     tags: [
       {
         name: "Laravel",
@@ -221,15 +222,15 @@ const projects = [
       },
     ],
     image: elearning,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/ghalibassaidy",
   },
   {
-    name: "Job IT",
+    name: "Training Management System",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Built a full-scale Training Management System (TMS) web app from scratch using Django with a scalable architecture, relational database schema, automated email notifications, and robust handling of user/stakeholder requests—resulting in streamlined training workflows, increased engagement, and significantly reduced manual overhead.",
     tags: [
       {
-        name: "react",
+        name: "Django",
         color: "blue-text-gradient",
       },
       {
@@ -237,24 +238,28 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Tailwind",
         color: "pink-text-gradient",
       },
+      {
+        name: "PostgreSQL",
+        color: "blue-text-gradient",
+      },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: tms,
+    source_code_link: "https://github.com/ghalibassaidy",
   },
   {
-    name: "Trip Guide",
+    name: "Company Profile",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "As a freelance Web Developer from Yemen, successfully delivered custom website and information system solutions across retail, healthcare, and logistics sectors using the latest technologies and best practices to ensure performance, scalability, and business growth.",
     tags: [
       {
         name: "nextjs",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Supabase",
         color: "green-text-gradient",
       },
       {
@@ -262,9 +267,30 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: cp,
+    source_code_link: "https://github.com/ghalibassaidy",
+  },
+  {
+    name: "School Payment Portal",
+    description:
+      "I developed a School Payment Portal using PHP Native and MySQL with a Bootstrap front end. This platform allows students and parents to easily track and pay school fees online, reducing administrative work. Key features include automated payment reminders, secure online payments, and an admin dashboard for managing student accounts and generating reports. The portal streamlines payment processes and improves communication between schools, students, and parents.",
+    tags: [
+      {
+        name: "PHP native",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MYSQL",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Bootstrap",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: spp,
+    source_code_link: "https://github.com/ghalibassaidy",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, skillsShowcase , projects };
