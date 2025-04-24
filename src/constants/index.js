@@ -285,7 +285,7 @@ const projects = [
       },
       {
         name: "Bootstrap",
-        color: "blue-text-gradient",
+        color: "green-text-gradient",
       },
     ],
     image: spp,
