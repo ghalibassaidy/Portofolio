@@ -24,6 +24,7 @@ import {
   cp,
   threejs,
   spp,
+  beImage 
 } from "../assets";
 
 export const navLinks = [
@@ -175,32 +176,34 @@ const experiences = [
   },
 ];
 
-const skillsShowcase  = [
+const skillsShowcase = [
   {
     skillset:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Web Development",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "Rick built a full-scale Training Management System for us from scratch using Django. What impressed us most was not just the tech, but how seamlessly it matched our real-world workflows. It literally replaced spreadsheets and chaos with clarity.",
+    name: "Backend Development",
+    designation: "BE",
+    company: "Bakrie Renewable Chemicals",
+    image: beImage,
   },
   {
     skillset:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
+      "We needed a custom website for our logistics project — and Rick delivered a fast, scalable solution that actually moved the needle. Clients started noticing. So did Google.",
+    name: "Fullstack Freelance Projects",
+    designation: "Product Owner",
+    company: "EvaFuture",
+    image: "https://randomuser.me/api/portraits/men/45.jpg",
   },
   {
     skillset:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
+      "Our LMS was clunky until Rick stepped in. He modernized the whole thing, improved the UX, and even got us a 9/10 satisfaction rating from users. Students and teachers are finally happy — which says a lot.",
+    name: "LMS & Education Tech",
+    designation: "Principal",
+    company: "SMK Mardhika",
+    image: "https://randomuser.me/api/portraits/women/33.jpg",
   },
 ];
+
+
 
 const projects = [
   {

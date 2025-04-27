@@ -30,6 +30,8 @@ import elearning from "./elearning.png";
 import tms from "./tms.png";
 import cp from "./cp.png";
 import spp from "./spp.png";
+import beImage from '../assets/be.png';
+
 
 
 export {
@@ -62,4 +64,5 @@ export {
   tms,
   cp,
   spp,
+  beImage,
 };
