@@ -31,7 +31,8 @@ import tms from "./tms.png";
 import cp from "./cp.png";
 import spp from "./spp.png";
 import beImage from '../assets/be.png';
-
+import FsImage from '../assets/FUllstack.jfif';
+import WbImage from '../assets/wbdev.jfif';
 
 
 export {
@@ -65,4 +66,6 @@ export {
   cp,
   spp,
   beImage,
+  FsImage,
+  WbImage
 };

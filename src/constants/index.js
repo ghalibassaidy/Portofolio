@@ -24,7 +24,9 @@ import {
   cp,
   threejs,
   spp,
-  beImage 
+  beImage,
+  FsImage,
+  WbImage 
 } from "../assets";
 
 export const navLinks = [
@@ -189,17 +191,17 @@ const skillsShowcase = [
     skillset:
       "We needed a custom website for our logistics project — and Rick delivered a fast, scalable solution that actually moved the needle. Clients started noticing. So did Google.",
     name: "Fullstack Freelance Projects",
-    designation: "Product Owner",
+    designation: "Fullstack",
     company: "EvaFuture",
-    image: "https://randomuser.me/api/portraits/men/45.jpg",
+    image: FsImage,
   },
   {
     skillset:
       "Our LMS was clunky until Rick stepped in. He modernized the whole thing, improved the UX, and even got us a 9/10 satisfaction rating from users. Students and teachers are finally happy — which says a lot.",
     name: "LMS & Education Tech",
-    designation: "Principal",
+    designation: "Web Dev",
     company: "SMK Mardhika",
-    image: "https://randomuser.me/api/portraits/women/33.jpg",
+    image: WbImage,
   },
 ];
 
